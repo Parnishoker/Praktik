@@ -1,0 +1,26 @@
+﻿<Window x:Class="QWER.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QWER"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid>
+        <Label Content="Аптечная " HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="55" Width="174" FontSize="36" Foreground="Red"/>
+        <Label Content="сеть&#xD;&#xA;" HorizontalAlignment="Left" Margin="170,10,0,0" VerticalAlignment="Top" FontSize="36" Height="55" Foreground="#FF00D016"/>
+        <Label Content="Каталог " HorizontalAlignment="Left" Margin="358,88,0,0" VerticalAlignment="Top" Height="56" Width="116" FontSize="28" Foreground="#FF490AFF"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="54,217,0,0" VerticalAlignment="Top" Height="146" Width="194"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="319,217,0,0" VerticalAlignment="Top" Height="146" Width="194" Click="Button_Click"/>
+        <Button HorizontalAlignment="Left" Margin="576,217,0,0" VerticalAlignment="Top" Height="146" Width="194" Click="Button_Click_1">
+            <Image Height="146" Source="/Image1.png" Stretch="Fill" Width="194"/>
+        </Button>
+        <Image Margin="54,217,552,71" Source="/Без названия.jpg" Stretch="Fill"/>
+        <Image Margin="319,217,287,71" Source="/5ed0299f66909d1964e6659d60466222_XL.jpg" Stretch="Fill"/>
+        <Button Content="Косметика" HorizontalAlignment="Left" Margin="54,173,0,0" VerticalAlignment="Top" Height="39" Width="194" FontSize="16" Background="White" Foreground="#FF4A0AFF" Click="Button_Click_2"/>
+        <Button Content="Витамины " HorizontalAlignment="Left" Margin="319,173,0,0" VerticalAlignment="Top" Height="39" Width="194" FontSize="16" Background="White" Foreground="#FF4A0AFF" Click="Button_Click_3"/>
+        <Button Content="Медицинские приборы" HorizontalAlignment="Left" Margin="576,173,0,0" VerticalAlignment="Top" Height="39" Width="194" FontSize="16" Click="Button_Click_1" Background="White" Foreground="#FF4A0AFF"/>
+        <Button Content="Вернуться" HorizontalAlignment="Left" Margin="632,10,0,0" VerticalAlignment="Top" Height="51" Width="158" Click="Button_Click_4" FontSize="24" Background="White"/>
+
+    </Grid>
+</Window>
